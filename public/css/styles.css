@@ -1,0 +1,162 @@
+/* Public/css/style.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+header nav {
+    background-color: #0f3460;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ffd633;
+}
+
+/* Buttons */
+button {
+    background-color: #ffcc00;
+    color: #1a1a2e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd633;
+}
+
+/* Forms */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 60%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Word boxes */
+.word-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.letter-box {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffcc00;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 40px;
+    background-color: #282846;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Table styles */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    color: #eaeaea;
+}
+
+thead {
+    background-color: #0f3460;
+}
+
+thead th {
+    padding: 10px;
+    border: 1px solid #1a1a2e;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #1a1a2e;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+
+    .letter-box {
+        width: 30px;
+        height: 30px;
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+}
+
+.correct {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+}
+.wrong {
+    background-color: #F44336; /* Rouge */
+    color: white;
+}
+.misplaced {
+    background-color: #FFC107; /* Orange */
+    color: black;
+}

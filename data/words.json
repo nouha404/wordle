@@ -1,0 +1,89 @@
+{
+    "words": [
+      {
+        "word": "mars",
+        "hint": "On l'appelle la planète rouge."
+      },
+      {
+        "word": "venus",
+        "hint": "La planète la plus chaude du système solaire."
+      },
+      {
+        "word": "jupiter",
+        "hint": "La plus grande planète du système solaire."
+      },
+      {
+        "word": "saturne",
+        "hint": "Connue pour ses anneaux magnifiques."
+      },
+      {
+        "word": "neptune",
+        "hint": "La planète la plus éloignée du Soleil."
+      },
+      {
+        "word": "mercure",
+        "hint": "La planète la plus proche du Soleil."
+      },
+      {
+        "word": "uranus",
+        "hint": "La planète avec un axe de rotation très incliné."
+      },
+      {
+        "word": "pluton",
+        "hint": "Autrefois considérée comme la neuvième planète."
+      },
+      {
+        "word": "terre",
+        "hint": "La planète où nous vivons."
+      },
+      {
+        "word": "lune",
+        "hint": "Le satellite naturel de la Terre."
+      },
+      {
+        "word": "soleil",
+        "hint": "L'étoile au centre de notre système solaire."
+      },
+      {
+        "word": "asteroide",
+        "hint": "Un petit corps rocheux qui orbite autour du Soleil."
+      },
+      {
+        "word": "comete",
+        "hint": "Un petit corps glacé qui laisse une traînée lumineuse."
+      },
+      {
+        "word": "galaxie",
+        "hint": "Un ensemble d'étoiles, de gaz et de poussières liés par la gravité."
+      },
+      {
+        "word": "exoplanete",
+        "hint": "Une planète qui orbite autour d'une autre étoile que le Soleil."
+      },
+      {
+        "word": "eclipse",
+        "hint": "Un phénomène où un astre est caché par un autre."
+      },
+      {
+        "word": "supernova",
+        "hint": "L'explosion d'une étoile en fin de vie."
+      },
+      {
+        "word": "pulsar",
+        "hint": "Une étoile à neutrons qui émet un faisceau de radiations."
+      },
+      {
+        "word": "quasar",
+        "hint": "Un noyau de galaxie extrêmement lumineux et énergétique."
+      },
+      {
+        "word": "nebula",
+        "hint": "Un nuage de gaz et de poussières dans l'espace."
+      },
+      {
+        "word": "astrophysique",
+        "hint": "La science qui étudie les objets célestes en utilisant les lois de la physique."
+      }
+    ]
+  }
+  
