@@ -14,12 +14,11 @@ spl_autoload_register(function ($class) {
     }
 });
 
-// Start session
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Routing
+// les routes
 $page = htmlspecialchars($_GET['page'] ?? 'home', ENT_QUOTES, 'UTF-8');
 
 $routes = [
@@ -30,6 +29,7 @@ $routes = [
     'enter_name' => [PlayerController::class, 'enterName'],
     'win' => [GameController::class, 'winGame'],
     'lose' => [GameController::class, 'loseGame'],
+    'reset' => [GameController::class, 'resetGame'],
     'score_image' => [ScoresController::class, 'generateScoreImage']
 ];
 
