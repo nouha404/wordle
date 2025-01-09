@@ -76,7 +76,7 @@ J'ai utilisé des sessions PHP pour stocker les informations du joueur, comme so
 
 ### 7. **Améliorations et tests**
 
-Enfin, j'ai testé l'ensemble du projet pour m'assurer que tout fonctionnait correctement. J'ai ajouté des fonctionnalités comme la possibilité de modifier un score uniquement pour son propre profil, tout en empêchant les autres joueurs de tricher.
+Enfin, j'ai testé l'ensemble du projet pour m'assurer que tout fonctionnait correctement. J'ai ajouté des fonctionnalités comme la possibilité de modifier un score uniquement pour son propre profil ( je l'ai enlever mybad :)
 
 ---
 
@@ -90,8 +90,6 @@ Enfin, j'ai testé l'ensemble du projet pour m'assurer que tout fonctionnait cor
 4. Ouvrez le fichier `index.php` dans votre navigateur pour commencer à jouer !
 
 ---
-
-N'hésitez pas à ajouter plus de fonctionnalités à ce projet, telles que l'intégration d'une base de données ou l'amélioration de la gestion des sessions. Ce projet peut être facilement étendu et personnalisé selon vos besoins.
 
 ### 6. **Autoloader pour les contrôleurs et modèles**
 
